@@ -1,0 +1,5 @@
+@include('blog.chunks.top')
+@include('blog.chunks.header')
+@yield('blogdash')
+@include('blog.chunks.footer')
+@yield('jsfiles')

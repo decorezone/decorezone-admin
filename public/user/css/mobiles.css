@@ -1,0 +1,80 @@
+
+	.title-small{
+		font-size: 12px;
+		color:#303030;	
+	}
+	.black-text{
+		color:#303030;
+		float:right;
+	}
+	.black-text-top{
+		color:#303030;
+	}
+	
+	.mobi-card a{
+		text-decoration:none;
+	}
+
+	.mobi-card:hover{
+		-webkit-box-shadow: 0px 0px 12px 0px  rgba(140,148,135,1);
+		-moz-box-shadow: 0px 0px 12px 0px  rgba(140,148,135,1);
+		box-shadow: 0px 0px 12px 0px  rgba(140,148,135,1);
+
+	}
+	.red-text{
+		color:red;
+		text-decoration:none;
+	}
+	.mt-5-negative{
+		margin-top:-5px !important;
+	}
+	.box {
+    padding: 0 5px 0 5px;
+}
+.box .inner {
+    background-color: #f5f6fa;
+}
+
+.mobi-separater{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+@media only screen and (max-width:600px){
+	.box {
+    	padding: 0 3px 0 3px;
+	}
+	.mobiles-row{
+		margin-left:-10px;
+	}
+	.title-small{
+		font-size: 12px;
+		color:#303030;	
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+
+
+/* owl-carousel */
+.owl-item img{
+	width:45px !important;
+	margin: 0 auto;
+    height: 100px !important;
+}
+div.owl-nav{
+	    position: absolute;
+    top: -52px;
+    right: 20px;
+    font-size: 36px;
+}
+.owl-dots{
+  display:none;
+}
+.more-p{
+  margin-right: 8px;
+  width:100%;
+  font-size:14px;
+  color:darkcyan;
+  font-weight:bold;
+}

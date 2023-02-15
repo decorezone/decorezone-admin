@@ -1,0 +1,1 @@
+<script src="{{ URL::asset('admin/dist/js/tabler.min.js') }}"></script>
