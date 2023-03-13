@@ -131,6 +131,7 @@ label {
 							<th>ID</th>
 							<th>Post Name</th>
 							<th>Catagory</th>
+							<th>Author</th>
 							<th>Status</th>
 							<th>Created At</th>
 							<th>Edit/Status</th>
@@ -142,6 +143,7 @@ label {
 								<img src="{{ URL::asset('post/'.$p->post_folder.'/'.$p->post_featured_image) }}" alt="{{$p->post_name}}" width="270" height="200">
 							</td>
 							<td>{{$p->cat_id}}</td>
+							<td>{{$p->author->name}}</td>
 						
 								<td>
 

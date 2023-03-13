@@ -33,3 +33,7 @@ Route::get('/catagory-detail-page/{url}', [App\Http\Controllers\HomeController::
 //Route::get('main-and-side-featured-posts', 'HomeController@mainAndSideFeaturedPosts');
 
 // });
+
+Route::get('/get-menu', [App\Http\Controllers\HomeController::class, 'get_menu']);
+Route::get('/post-type/{type}', [App\Http\Controllers\HomeController::class, 'home_page_side_posts']);
+Route::get('/author-posts/{id}', [App\Http\Controllers\HomeController::class, 'get_author_posts']);
